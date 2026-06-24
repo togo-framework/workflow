@@ -1,3 +1,23 @@
+<!-- togo-header -->
+<div align="center">
+  <img src=".github/assets/togo-mark.svg" alt="togo" height="64" />
+  <h1>togo-framework/workflow</h1>
+  <p>
+    <a href="https://to-go.dev/marketplace"><img src="https://img.shields.io/badge/marketplace-to--go.dev-1FC7DC" alt="marketplace" /></a>
+    <a href="https://pkg.go.dev/github.com/togo-framework/workflow"><img src="https://pkg.go.dev/badge/github.com/togo-framework/workflow.svg" alt="pkg.go.dev" /></a>
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT" />
+  </p>
+  <p><strong>Part of the <a href="https://to-go.dev">togo</a> framework.</strong></p>
+</div>
+
+## Install
+
+```bash
+togo install togo-framework/workflow
+```
+
+<!-- /togo-header -->
+
 # workflow — togo workflow engine
 
 Run **dynamic, multi-step workflows** over the togo [worker/queue](https://to-go.dev).
@@ -41,3 +61,16 @@ A step can set `sc.Next` to jump/branch (or `-1` to end early) and read/write
 `sc.Run.State` shared across the run. With no queue installed, steps run inline.
 
 MIT
+
+<!-- togo-sponsors -->
+---
+
+<div align="center">
+  <h3>Premium sponsors</h3>
+  <p>
+    <a href="https://id8media.com"><strong>ID8 Media</strong></a> &nbsp;·&nbsp;
+    <a href="https://one-studio.co"><strong>One Studio</strong></a>
+  </p>
+  <p><sub>Support togo — <a href="https://github.com/sponsors/fadymondy">become a sponsor</a>.</sub></p>
+</div>
+<!-- /togo-sponsors -->
